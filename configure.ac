@@ -1,12 +1,12 @@
 dnl Process this file with autoconf to produce a configure script.
-AC_PREREQ(2.13)
-AC_INIT(bmp/classic_check_button.bmp)
+AC_PREREQ(2.60)
+AC_INIT(minigui-res, 3.0.13)
+AC_CONFIG_SRCDIR(bmp/classic_check_button.bmp)
+AM_INIT_AUTOMAKE
 
 dnl ========================================================================
 dnl Checks for programs.
 AC_PROG_MAKE_SET
-
-AM_INIT_AUTOMAKE(minigui-res, 3.0.11)
 
 AC_CHECK_FILE(font/extra-fonts/9x18-iso8859-1.bin, guess_mgedition="svn", guess_mgedition="rel")
 
