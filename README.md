@@ -1,7 +1,6 @@
 # NAME
 
-MiniGUI Resources Package version 3.0.11 for MiniGUI v3.0.x.
-
+This is the mainline release of MiniGUI Resources Package for MiniGUI v3.0.x.
 
 # INSTALLATION
 
