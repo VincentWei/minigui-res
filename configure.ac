@@ -1,6 +1,6 @@
 dnl Process this file with autoconf to produce a configure script.
 AC_PREREQ(2.60)
-AC_INIT(minigui-res, 3.0.13)
+AC_INIT(minigui-res, 3.2.0)
 AC_CONFIG_SRCDIR(bmp/classic_check_button.bmp)
 AM_INIT_AUTOMAKE
 

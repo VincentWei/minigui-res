@@ -1,6 +1,6 @@
 # NAME
 
-This is the mainline release of MiniGUI Resources Package for MiniGUI v3.0.x.
+This is the mainline release of MiniGUI Resources Package for MiniGUI v3.2.x.
 
 # INSTALLATION
 
