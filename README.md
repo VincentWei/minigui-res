@@ -23,11 +23,20 @@ to uninstall the resource files.
 
 ## Notes
 
+### Adobe Free Fonts
+
 The fonts contained `adobe-fonts/` are licensed under the
 SIL Open Font License, Version 1.1. For the complete license,
-please see LICENSE.txt file in abobe-fonts/.
+please see LICENSE.txt file in abobe-fonts/. For more information,
+please visit:
 
-Some fonts/bitmaps/cursors/icons are not free ones. The rights
-may be reserved by the copyright holders. Please contact the
+https://github.com/adobe-fonts/
+
+### Warning
+
+Some fonts/bitmaps/cursors/icons are not free ones. They are here
+just for the convenience of development.
+
+The rights may be reserved by the copyright holders. Please contact the
 copyright holders before you use them in your commercial products.
 
