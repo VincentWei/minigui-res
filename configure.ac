@@ -1,6 +1,6 @@
 dnl Process this file with autoconf to produce a configure script.
 AC_PREREQ(2.60)
-AC_INIT(minigui-res, 3.2.0)
+AC_INIT(minigui-res, 4.0.0)
 AC_CONFIG_SRCDIR(bmp/classic_check_button.bmp)
 AM_INIT_AUTOMAKE
 
@@ -16,9 +16,53 @@ else
   AC_ARG_WITH(mgedition, [  --with-mgedition=ve/se/pe/ee])
 fi
 
+ADOBE_FONTS=" \
+AdobeVFPrototype.ttf \
+SourceCodeVariable-Italic.ttf \
+SourceCodeVariable-Roman.ttf \
+SourceHanSans-Regular.ttc \
+SourceHanSerif-Regular.ttc \
+SourceSansPro-Black.ttf \
+SourceSansPro-BlackIt.ttf \
+SourceSansPro-Bold.ttf \
+SourceSansPro-BoldIt.ttf \
+SourceSansPro-ExtraLight.ttf \
+SourceSansPro-ExtraLightIt.ttf \
+SourceSansPro-It.ttf \
+SourceSansPro-Light.ttf \
+SourceSansPro-LightIt.ttf \
+SourceSansPro-Regular.ttf \
+SourceSansPro-Semibold.ttf \
+SourceSansPro-SemiboldIt.ttf \
+SourceSerifPro-Black.otf \
+SourceSerifPro-Black.ttf \
+SourceSerifPro-BlackIt.otf \
+SourceSerifPro-BlackIt.ttf \
+SourceSerifPro-Bold.otf \
+SourceSerifPro-Bold.ttf \
+SourceSerifPro-BoldIt.otf \
+SourceSerifPro-BoldIt.ttf \
+SourceSerifPro-ExtraLight.otf \
+SourceSerifPro-ExtraLight.ttf \
+SourceSerifPro-ExtraLightIt.otf \
+SourceSerifPro-ExtraLightIt.ttf \
+SourceSerifPro-It.otf \
+SourceSerifPro-It.ttf \
+SourceSerifPro-Light.otf \
+SourceSerifPro-Light.ttf \
+SourceSerifPro-LightIt.otf \
+SourceSerifPro-LightIt.ttf \
+SourceSerifPro-Regular.otf \
+SourceSerifPro-Regular.ttf \
+SourceSerifPro-Semibold.otf \
+SourceSerifPro-Semibold.ttf \
+SourceSerifPro-SemiboldIt.otf \
+SourceSerifPro-SemiboldIt.ttf \
+"
+
 case "$with_mgedition" in
   ve)
-    DEV_FONTS="unifont_160_50.upf" 
+    DEV_FONTS="unifont_160_50.upf"
     ;;
 
   se)
@@ -184,13 +228,15 @@ unifont_160_50.upf"
     ;;
 esac
 
+AC_SUBST(ADOBE_FONTS)
 AC_SUBST(DEV_FONTS)
 
 AC_OUTPUT(
 Makefile
 bmp/Makefile
 cursor/Makefile
-font/Makefile
 icon/Makefile
+font/Makefile
+adobe-fonts/Makefile
 )
 

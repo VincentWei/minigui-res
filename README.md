@@ -1,8 +1,8 @@
-# NAME
+# MINIGUI RESOURCE
 
-This is the mainline release of MiniGUI Resources Package for MiniGUI v3.2.x.
+This is the mainline release of Resources Package for MiniGUI v4.0.x.
 
-# INSTALLATION
+## Installation
 
 The installation path by default is:
 
@@ -21,9 +21,13 @@ Run
 
 to uninstall the resource files.
 
-# IMPORTANT NOTES
+## Notes
 
-Some fonts/bitmaps/cursors/icons are not free ones. The rights 
-may be reserved by the copyright holders. Please contact the 
+The fonts contained `adobe-fonts/` are licensed under the
+SIL Open Font License, Version 1.1. For the complete license,
+please see LICENSE.txt file in abobe-fonts/.
+
+Some fonts/bitmaps/cursors/icons are not free ones. The rights
+may be reserved by the copyright holders. Please contact the
 copyright holders before you use them in your commercial products.
 
