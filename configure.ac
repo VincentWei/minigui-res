@@ -16,6 +16,12 @@ else
   AC_ARG_WITH(mgedition, [  --with-mgedition=ve/se/pe/ee])
 fi
 
+IEKIE_FONTS=" \
+sans-serif-heiti-medium.ttf	\
+sans-serif-light.ttf \
+iekie-fonts/sans-serif-medium.ttf \
+"
+
 ADOBE_FONTS=" \
 AdobeVFPrototype.ttf \
 SourceCodeVariable-Italic.ttf \
@@ -228,6 +234,7 @@ unifont_160_50.upf"
     ;;
 esac
 
+AC_SUBST(IEKIE_FONTS)
 AC_SUBST(ADOBE_FONTS)
 AC_SUBST(DEV_FONTS)
 
@@ -237,6 +244,7 @@ bmp/Makefile
 cursor/Makefile
 icon/Makefile
 font/Makefile
+iekie-fonts/Makefile
 adobe-fonts/Makefile
 )
 
