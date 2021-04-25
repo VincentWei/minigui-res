@@ -17,9 +17,9 @@ else
 fi
 
 IEKIE_FONTS=" \
-sans-serif-heiti-medium.ttf	\
-sans-serif-light.ttf \
-iekie-fonts/sans-serif-medium.ttf \
+sans-serif-hei-chinese-medium.ttf	\
+sans-serif-hei-latin-light.ttf \
+sans-serif-hei-latin-medium.ttf \
 "
 
 ADOBE_FONTS=" \
