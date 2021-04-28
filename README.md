@@ -23,6 +23,14 @@ to uninstall the resource files.
 
 ## Notes
 
+### Iekie Fonts
+
+The copyright of the fonts contained in `iekie-fonts/` belongs to Shanghai Yiqi Information Technology Co., Ltd.
+
+These fonts are optimized for the display of Chinese text.
+
+Please contact <sales@minigui.com> if you want to use Iekie fonts in a commercial product.
+
 ### Adobe Free Fonts
 
 The fonts contained `adobe-fonts/` are licensed under the
@@ -30,7 +38,7 @@ SIL Open Font License, Version 1.1. For the complete license,
 please see LICENSE.txt file in abobe-fonts/. For more information,
 please visit:
 
-https://github.com/adobe-fonts/
+<https://github.com/adobe-fonts/>
 
 ### Warning
 
