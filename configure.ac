@@ -1,6 +1,6 @@
 dnl Process this file with autoconf to produce a configure script.
 AC_PREREQ(2.60)
-AC_INIT(minigui-res, 5.0.6)
+AC_INIT(minigui-res, 5.0.13)
 AC_CONFIG_SRCDIR(bmp/classic_check_button.bmp)
 AM_INIT_AUTOMAKE
 
@@ -68,7 +68,7 @@ SourceSerifPro-SemiboldIt.ttf \
 
 case "$with_mgedition" in
   ve)
-    DEV_FONTS="unifont_160_50.upf"
+    DEV_FONTS="unifont_160_50.upf unifont-15.0.06.otf"
     ;;
 
   se)
@@ -143,7 +143,8 @@ times-mr-18.upf \
 times-mr-24.upf \
 micro_40_50.upf \
 smoothtimes_100_50.upf \
-unifont_160_50.upf"
+unifont_160_50.upf \
+unifont-15.0.06.otf"
     ;;
 
   *)
@@ -230,7 +231,8 @@ times-mr-18.upf \
 times-mr-24.upf \
 micro_40_50.upf \
 smoothtimes_100_50.upf \
-unifont_160_50.upf"
+unifont_160_50.upf \
+unifont-15.0.06.otf"
     ;;
 esac
 
