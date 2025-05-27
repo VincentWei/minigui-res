@@ -1,6 +1,6 @@
 # MINIGUI RESOURCE
 
-This is the mainline release of Resources Package for MiniGUI v4.0.x.
+This is the mainline release of Resources Package for MiniGUI v5.0.x
 
 ## Installation
 
@@ -22,14 +22,6 @@ Run
 to uninstall the resource files.
 
 ## Notes
-
-### Iekie Fonts
-
-The copyright of the fonts contained in `iekie-fonts/` belongs to Shanghai Yiqi Information Technology Co., Ltd.
-
-These fonts are optimized for the display of Chinese text.
-
-Please contact <sales@minigui.com> if you want to use Iekie fonts in a commercial product.
 
 ### Adobe Free Fonts
 
