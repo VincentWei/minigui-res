@@ -1,6 +1,6 @@
 # MINIGUI RESOURCE
 
-This is the mainline release of Resources Package for MiniGUI v5.0.x
+This is the mainline release of Resources Package for MiniGUI v5.0.x or later.
 
 ## Installation
 
@@ -25,7 +25,7 @@ to uninstall the resource files.
 
 ### Adobe Free Fonts
 
-The fonts contained `adobe-fonts/` are licensed under the
+The fonts contained in `adobe-fonts/` are licensed under the
 SIL Open Font License, Version 1.1. For the complete license,
 please see LICENSE.txt file in abobe-fonts/. For more information,
 please visit:
