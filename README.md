@@ -31,12 +31,3 @@ please see LICENSE.txt file in abobe-fonts/. For more information,
 please visit:
 
 <https://github.com/adobe-fonts/>
-
-### Warning
-
-Some fonts/bitmaps/cursors/icons are not free ones. They are here
-just for the convenience of development.
-
-The rights may be reserved by the copyright holders. Please contact the
-copyright holders before you use them in your commercial products.
-

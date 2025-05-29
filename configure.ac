@@ -1,6 +1,6 @@
 dnl Process this file with autoconf to produce a configure script.
-AC_PREREQ(2.60)
-AC_INIT(minigui-res, 5.0.13)
+AC_PREREQ([2.71])
+AC_INIT([minigui-res],[5.0.16])
 AC_CONFIG_SRCDIR(bmp/classic_check_button.bmp)
 AM_INIT_AUTOMAKE
 
@@ -240,12 +240,12 @@ AC_SUBST(IEKIE_FONTS)
 AC_SUBST(ADOBE_FONTS)
 AC_SUBST(DEV_FONTS)
 
-AC_OUTPUT(
-Makefile
+AC_CONFIG_FILES([Makefile
 bmp/Makefile
 cursor/Makefile
 icon/Makefile
 font/Makefile
 adobe-fonts/Makefile
-)
+])
+AC_OUTPUT
 
